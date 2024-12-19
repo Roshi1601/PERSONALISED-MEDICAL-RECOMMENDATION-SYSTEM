@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Health Care Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        .logo {
+            width: 50px;
+            height: 50px;
+            color: black;
+            margin-top: 0;
+            margin-left: 2px;
+        }
+
+        .myimg {
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+            border-radius: 25px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            overflow-y: auto;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 200px; /* Limit the height to the desired area */
+            object-fit: 80;
+            z-index: -1;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .content {
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .navigate-button {
+            padding: 1em 2em;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 0.3em;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .navigate-button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+       
+    </style>
+</head>
+
+<body>
+    
+    <!-- Add the video background -->
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="static/VN20241111_130910.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+
+     
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="logo">
+                <img class="myimg" src="{{ url_for('static', filename='img - Copy.png') }}" alt="Logo">
+            </div>
+            <a class="navbar-brand" href="#">Health Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <header>
+        <h1>Health Analysis</h1>
+    </header> -->
+
+    <header>
+        <h1>Personalized Medical Recommendation System</h1>
+        
+    </header>
+    <div class="content">
+        <h2>Get Personalized Health Advice!</h2>
+        <p>Welcome to our hospital’s Symptom-Based Health Prediction System.
+            <br> This platform is designed to streamline your healthcare journey by analyzing symptoms and <br>
+            providing accurate health predictions. By leveraging sophisticated algorithms, our system can assess symptoms, predict potential health issues, and offer tailored medical advice. Whether you're seeking guidance on managing symptoms, understanding potential diagnoses, or finding the right care options, 
+            <br>our platform is here to assist, helping you make informed decisions for your health and well-being.
+            </p>
+    </div> 
+
+    <div class="content">
+        <div class="button-container">
+            <!-- Flask link using url_for -->
+            <a href="{{ url_for('index') }}" class="navigate-button">Go to Health Care Center</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Personalized Health Care. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
