@@ -10,13 +10,13 @@ ML Model Notebook:
 
 Flask-APP-(windowsapi)Dashboard:
 
-image
 
-Technology Used
-Data Science Libraries:
+**Technology Used**
+**Data Science Libraries:**
 scikit-learn: RandomForestClassifier, GradientBoostingClassifier, KNeighborsClassifier, SVC, MultinomialNB, StandardScaler, LabelEncoder, RFE
 Data Handling: pandas, numpy
 Visualization: matplotlib.pyplot, seaborn
 Text Processing: textblob
-Web Development:
+
+**Web Development:**
 Backend: flask
