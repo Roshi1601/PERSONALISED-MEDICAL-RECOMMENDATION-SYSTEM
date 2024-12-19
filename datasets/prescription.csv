@@ -1,0 +1,42 @@
+Disease,prescription
+Fungal infection,"[Antifungal Cream, Clotrimazole get overcounter another need Dermatologist consult] "
+Allergy,"[Antihistamines, Decongestants another need prescription and Allergist consult]"
+GERD,[Antacids another need prescription and Gastroenterologist consult]
+Chronic cholestasis,[Hepatologist consult]
+Drug Reaction,"[Antihistamines, Antifungal Cream and Allergist or Dermatologist consult]"
+Peptic ulcer disease,[Antacids another need prescription and Gastroenterologist consult]
+AIDS,[Infectious Disease Specialistdoctor]
+Diabetes,[Endocrinologist doctor]
+Gastroenteritis,"[Antiemetic drugs, Antidiarrheal drugs, Probiotics another need prescription and Gastroenterologist or General Practitioner]"
+Bronchial Asthma,[Mast cell stabilizers and Pulmonologist doctor]
+Hypertension,[Cardiologist or General Practitioner doctor]
+Migraine,"[Analgesics, Biofeedback and Neurologist doctor]"
+Cervical spondylosis,"[Pain relievers, Physical therapy, Neck braces and  Orthopedist or Rheumatologist needed]"
+Paralysis (brain hemorrhage),"[Physical therapy, Occupational therapy and consult doctor]"
+Jaundice,[consult Hepatologist]
+Malaria,[Pain relievers and Infectious Disease Specialist or General Practitioner the doctor]
+Chicken pox,"[Antibiotics, Antipyretics and consult doctor]"
+Dengue,[Vaccination and consult General Practitioner]
+Typhoid,[Vaccination and Infectious Disease Specialist or General Practitioner doctor]
+hepatitis A,[consult Hepatologist]
+Hepatitis B,[consult Hepatologist]
+Hepatitis C,[consult Hepatologist]
+Hepatitis D,"[Nutritional support, Alcohol cessation and consult Hepatologist]"
+Hepatitis E,[consult Hepatologist]
+Alcoholic hepatitis,[consult Infectious Disease Specialist or Pulmonologist]
+Tuberculosis,"[Antifungal drugs, IV fluids and General Practitioner doctor]"
+Common Cold,"[Laxatives, Pain relievers, Cold compresses all are available in over counter and Pulmonologist or General Practitioner consult]"
+Pneumonia,[Aspirin and consult doctor]
+Dimorphic hemmorhoids(piles),"[Exercise, Compression stockings and consult Proctologist or General Surgeon]"
+Heart attack,"[Compression stockings, Exercise an consult doctor]"
+Varicose veins,[consult Endocrinologist]
+Hypothyroidism,[consult Endocrinologist]
+Hyperthyroidism,"[Glucose tablets, Candy or juice and consult Endocrinologist doctor]"
+Hypoglycemia,"[NSAIDs, Physical therapy and consult Rheumatologist or Orthopedist]"
+Osteoarthristis,"[Physical therapy, Home exercises and consult Rheumatologist]"
+Arthritis,"[Canalith repositioning, Home exercises and consult Otolaryngologist (ENT)]"
+(vertigo) Paroymsal Positional Vertigo,"[Topical treatments, Antibiotics and consult Dermatologist]"
+Acne,"[avoid using tretinoin before Dermatologist consult]"
+Urinary tract infection,"[Topical treatments, Coal tar and consult Dermatologist]"
+Psoriasis,"[Topical antibiotics, Warm compresses and consult Dermatologist]"
+Impetigo,"[Topical treatments, Coal tar and consult Dermatologist]"
