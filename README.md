@@ -1,1 +1,3 @@
 # PERSONALISED-MEDICAL-RECOMMENDATION-SYSTEM
+The Personalized Medical Recommendation System is an innovative healthcare solution designed to provide accurate disease predictions and personalized medical guidance. Built using a Flask API-based Machine Learning model, the system leverages the power of the Random Forest Algorithm to analyze user-reported symptoms and deliver reliable health insights. Its intuitive one-screen dashboard allows users to input their symptoms and receive a detailed set of recommendations, including disease predictions, descriptions, precautions, prescriptions, medications, recommended diets, and workout plans, making healthcare more accessible and efficient.
+
